@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  font-family: "Staatliches", cursive;
+}
+body {
+  background-image: linear-gradient(hsl(155, 10%, 66%), hsl(155, 19%, 82%));
+  margin: 0 30px;
+}
+nav {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  padding: 10px;
+}
+
+.base {
+  margin: 60px;
+  text-align: center;
+  color: #ffffffad;
+  cursor: context-menu;
+
+  text-shadow: 1px 1px 10px #ffffff;
+}
+.base:hover {
+  color: #ffffffad;
+  cursor: context-menu;
+
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #22a4bb,
+    0 0 30px #2abebe, 0 0 40px #61c5bd, 0 0 55px #2bbeb2, 0 0 75px #237bce;
+}
+
+nav {
+  a {
+    color: white;
+  }
+  a:hover {
+    color: white;
+    text-decoration: none;
+    opacity: 0.5;
+  }
+}
+
+#container {
+  max-width: 1200px;
+  margin: 20px auto;
+  justify-content: center;
+}
+
+#char {
+  max-width: 305px;
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 20px;
+  background: linear-gradient(145deg, hsl(155, 13%, 66%), hsl(155, 25%, 79%));
+  box-shadow: 5px 5px 12px hsl(155, 11%, 63%), -5px -5px 12px hsl(155, 38%, 85%);
+  img {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+  }
+  .name {
+    color: hsl(0, 89%, 4%);
+    display: block;
+    width: 200px;
+    margin-left: 30px;
+    margin-right: auto;
+    margin-top: 5px;
+  }
+  button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    span {
+      visibility: hidden;
+    }
+  }
+
+  button:hover {
+    background-color: #3e8e41;
+    span {
+      visibility: visible;
+    }
+  }
+
+  button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    span {
+      color: red;
+      transform: all 0.5s easy-in;
+    }
+  }
+}
+
+#char:hover {
+  background: linear-gradient(145deg, hsl(155, 13%, 62%), hsl(155, 25%, 72%));
+  box-shadow: 5px 5px 12px hsl(155, 11%, 63%), -5px -5px 12px hsl(155, 38%, 85%);
+}
+
+.name:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+//character style
+
+#container2 {
+  margin: 150px auto;
+  max-width: 900px;
+  border-radius: 20px;
+  background: linear-gradient(145deg, hsl(155, 13%, 66%), hsl(155, 25%, 79%));
+  box-shadow: 5px 5px 12px hsl(155, 11%, 63%), -5px -5px 12px hsl(155, 38%, 85%);
+  img {
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 1px solid grey;
+  }
+  .charName {
+    margin: 20px 0;
+  }
+  .div-about {
+    margin: 30px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 12px hsl(155, 11%, 63%),
+      -5px -5px 12px hsl(155, 38%, 85%);
+    .textRes {
+      margin-top: 30px;
+      list-style: outside url("128px-Creative-Tail-rocket.svg.png");
+      text-align: center;
+      li {
+        margin-top: 16px;
+        box-shadow: 5px 5px 12px hsl(155, 11%, 63%),
+          -5px -5px 12px hsl(155, 38%, 85%);
+      }
+      li:hover {
+        background: linear-gradient(
+          145deg,
+          hsl(155, 13%, 62%),
+          hsl(155, 25%, 72%)
+        );
+        box-shadow: 5px 5px 12px hsl(155, 11%, 63%),
+          -5px -5px 12px hsl(155, 38%, 85%);
+        cursor: pointer;
+      }
+    }
+  }
+}

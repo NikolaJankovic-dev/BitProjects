@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Movie festival</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel = "icon" href = 
+"/style/1200px-P_Cinema.svg.png" 
+        type = "image/x-icon">
+  </head>
+  <body>
+    <br>
+    
+      <h1>Movie festival</h1>
+      <div class="form">
+        <h5>Please fill in the form</h5>
+          <h5>Movie</h5>
+      <div class="makemovie">
+        
+          <label for="title">Title</label>
+          <input type="text" id="title" placeholder="Title">
+          <p id="errorTitle"></p>
+          <label for="duration">Duration(min)</label>    
+          <input type="number" id="duration" placeholder="Duration in min">
+          <p id="errorDuration"></p>
+          <label for="genre">Genre</label>
+          <select id="genre">
+              <option value="-">-</option>
+              <option value="Action">Action</option>
+              <option value="Drama">Drama</option>
+              <option value="Comedy">Comedy</option>
+              <option value="Horror">Horror</option>
+              <option value="Sci-Fi">Sci-Fi</option>
+          </select>
+          <p id="errorGenre"></p>
+          <button id="createMovie">Create movie</button>
+          <ul id="createdMovies"></ul>
+        </div>
+        <h5>Program</h5>
+        <div class="program">
+            <label for="date">Date</label>
+            <input type="date" id="date">
+            <p id="errorDate"></p>
+            <button id="createProgram">Create program</button>
+            <ul id="createdPrograms"></ul>
+            <label for="selectMovie">Movie</label>
+            <select id="selectMovie">
+                <option value="-">-</option>
+            </select>
+            <p id="errorMovie"></p>
+            <label for="slecetProgram">Program</label>
+            <select id="selectProgram">
+                <option value="-">-</option>
+            </select>
+            <p id="errorProgram"></p>
+            <button id="addMovie">Add movie to program</button>
+            
+            
+        </div>
+        
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script type="module" src="script/form.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

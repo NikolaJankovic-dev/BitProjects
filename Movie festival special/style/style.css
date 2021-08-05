@@ -1,0 +1,145 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: auto;
+  padding: auto;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  background-image: url("https://ak.picdn.net/shutterstock/videos/1018020805/thumb/1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-backdrop-filter: blur(0px);
+          backdrop-filter: blur(0px);
+}
+
+::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.384);
+}
+
+:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.384);
+}
+
+::-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.384);
+}
+
+::placeholder {
+  color: rgba(0, 0, 0, 0.384);
+}
+
+.form {
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+h1 {
+  text-align: center;
+  color: #202c2d;
+  text-shadow: 0 0 10px #FFFFFF;
+}
+
+div {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.form {
+  margin: 20px auto 5px;
+  max-width: 700px;
+}
+
+label {
+  margin: 0.5rem 0;
+  display: block;
+}
+
+button {
+  display: block;
+  width: 100%;
+  color: #fff;
+  background-color: #29ae2d;
+  border: #26a12a solid 1px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 9px #999;
+          box-shadow: 0 9px #999;
+  margin: 20px 0;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #2caa30;
+  -webkit-box-shadow: 0 5px #666;
+          box-shadow: 0 5px #666;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+}
+
+input,
+select {
+  width: 100%;
+  height: 2.5rem;
+  border-radius: 10px;
+  border: 1px black solid;
+  background: rgba(53, 83, 110, 0.281);
+}
+
+select {
+  cursor: pointer;
+}
+
+option {
+  background: rgba(53, 83, 110, 0.281);
+}
+
+h5 {
+  margin: 10px 0;
+}
+
+p {
+  color: red;
+  text-shadow: 0 0 10px #FFFFFF;
+}
+
+.makemovie {
+  background: rgba(15, 196, 209, 0.062);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.makemovie ul {
+  list-style: url("Movies.png");
+}
+
+.program {
+  background: rgba(15, 196, 209, 0.062);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 137, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 137, 0.37);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.program ul {
+  list-style: url("movie_track.png");
+}
+
+ul {
+  list-style-position: outside;
+  font-size: 1.25em;
+  text-shadow: #FFFCA8 2px 2px 0px, #9C9C9C 4px 4px 0px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
